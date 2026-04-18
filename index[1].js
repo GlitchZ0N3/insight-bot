@@ -37,7 +37,7 @@ client.on('messageCreate', async (message) => {
         );
 
         message.channel.send({
-            content: '@everyone 🚨 New Insight!',
+            content: '@everyone 🚨 New Info dropped!!',
             components: [row]
         });
     }
